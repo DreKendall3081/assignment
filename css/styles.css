@@ -6,7 +6,7 @@ Instructor: Vanzi, Andria
 
 html {
     font: italic small-caps bold 13px/1.5 "Helvetica Neue", Arial, sans-serif; 
-    background-color: #d0e8ff; 
+    background-color: #5eb2dd; 
 }
 
 body { 
@@ -14,18 +14,18 @@ body {
     margin: 0 auto;
     padding: 2rem auto;
     border: 2rem solid #000000;
-    background-color:#ffffff;
+    background-color:#5eb2dd;
 }
 
 header {
-    text-align:left;
+    text-align:center;
     background:linear-gradient(90 deg, #5eb2dd, #01567a);
     color: #000000;
     font-size: 2rem;
 
 }
 footer { 
-    text-align: right; 
+    text-align: center; 
     background: linear-gradient(90 deg, #5eb2dd, #01567a); 
     color: #ffffff;
     font-size: 2rem;
