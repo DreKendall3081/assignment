@@ -10,10 +10,10 @@ html {
 }
 
 body { 
-    max-width: 50px;
+    max-width: 25px;
     margin: 0 auto;
-    padding: 2rem auto;
-    border: 2rem solid #000000;
+    padding: 1rem auto;
+    border: 1rem solid #000000;
     background-color:#5eb2dd;
 }
 
@@ -127,7 +127,7 @@ a:active {
 }
 
 table { 
-    width: 100%;
+    width: 50%;
 }
 
 th { 
