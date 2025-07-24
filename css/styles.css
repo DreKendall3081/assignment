@@ -5,12 +5,12 @@ Instructor: Vanzi, Andria
 */ 
 
 html {
-    font: italic small-caps bold 20px/1.5 "Helvetica Neue", Arial, sans-serif; 
+    font: italic small-caps bold 13px/1.5 "Helvetica Neue", Arial, sans-serif; 
     background-color: #d0e8ff; 
 }
 
 body { 
-    max-width: 1200px;
+    max-width: 50px;
     margin: 0 auto;
     padding: 4rem auto;
     border: 2rem solid #000000;
@@ -21,7 +21,7 @@ header {
     text-align:left;
     background:linear-gradient(90 deg, #5eb2dd, #01567a);
     color: #ffffff;
-    font-size: 5rem;
+    font-size: 2rem;
 
 }
 footer { 
@@ -41,8 +41,8 @@ main {
 aside { 
     width: 30%;
     float: right;
-    padding: 5rem;
-    background-color: #ffffff;
+    padding: 2rem;
+    background-color: #5eb2dd;
 }
 
 h2 {
@@ -57,19 +57,19 @@ h2 {
 blockquote { 
     font-style:italic;
     background-color: #ffffff;
-    padding: 4rem;
+    padding: 2rem;
     border-left: 1rem solid #5eb2dd;
     width: fit-content;
-    margin: 4rem auto;
+    margin: 2rem auto;
 }
 
 figure { 
     border-color: #ffffff;
-    border: 4rem;
-    border-radius: 4rem;
-    padding: 2rem;
+    border: 2rem;
+    border-radius: 2rem;
+    padding: 1rem;
     width: fit-content;
-    margin: 4rem auto;
+    margin: 1rem auto;
 }
 
 img { 
@@ -85,7 +85,7 @@ figcaption {
     font-variant: small-caps;
     color: #000000;
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 1rem;
 }
 
 quote { 
@@ -130,12 +130,12 @@ font-weight: bold;
 font-variant: small-caps;
 color: #ffffff;
 background-color: #5eb2dd;
-padding: 4rem;
+padding: 1rem;
 }
 
 td { 
-    padding: 4rem;
-    border: 4rem;
+    padding: 2rem;
+    border: 2rem;
 }
 tr:hover { 
     background-color: #5eb2dd;
@@ -144,9 +144,9 @@ tr:hover {
 .form-label { 
     font-variant: small-caps;
     font-weight: bold;
-    width: 30rem;
-    margin-bottom: 4rem;
-    font-size: 4rem;
+    width: 20rem;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
 }
 
 .form-control { 
