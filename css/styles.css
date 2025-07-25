@@ -5,7 +5,7 @@ Instructor: Vanzi, Andria
 */ 
 
 html {
-    font: italic small-caps bold 13px/1.5 "Helvetica Neue", Arial, sans-serif; 
+    font: italic small-caps bold 16px/1.5 "Helvetica Neue", Arial, sans-serif; 
     background-color: #5eb2dd; 
 }
 
@@ -181,6 +181,7 @@ button {
 
 button:hover { 
     background-color: #5eb2dd;
+    color: white;
 }
 
 html { 
@@ -243,6 +244,15 @@ body {
     border: none;
     }
 }
+
+a:focus
+button:focus-visible 
+input:focus-visible 
+textarea:focus-visible {  
+outline: 2px solid #000000;
+outline-offset: 2px;
+}
+
 
 
 
