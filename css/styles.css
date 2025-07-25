@@ -12,14 +12,14 @@ html {
 body { 
     max-width: 800px;
     margin: 0 auto;
-    padding: 1rem auto;
+    padding: 1rem;
     border: 1rem solid #000000;
     background-color:#5eb2dd;
 }
 
 header {
     text-align: center;
-    background: linear-gradient(90 deg, #ffffff, #ffffff);
+    background: linear-gradient(90deg, #ffffff, #ffffff);
     color: #000000;
     font-size: 2.5rem;
 
@@ -32,7 +32,7 @@ header h1 {
 }
 footer { 
     text-align: center; 
-    background: linear-gradient(90 deg, #5eb2dd, #01567a); 
+    background: linear-gradient(90deg, #5eb2dd, #01567a); 
     color: #ffffff;
     font-size: 2rem;
 }
@@ -71,7 +71,7 @@ blockquote {
 
 figure { 
     border-color: #ffffff;
-    border: 2rem;
+    border: 2px solid #5eb2dd;
     border-radius: 2rem;
     padding: 1rem;
     margin: 1rem auto;
@@ -147,7 +147,7 @@ padding: 1rem;
 
 td { 
     padding: 2rem;
-    border: 2rem;
+    border: 2px solid #5eb2dd;
 }
 tr:hover { 
     background-color: #5eb2dd;
@@ -164,7 +164,7 @@ tr:hover {
 .form-control { 
 padding: 1rem;
 border-radius: 2rem;
-border: 2rem #5eb2dd;
+border: 2px solid #5eb2dd;
 width: 30%;
 margin: 2rem;
 font-size: 2rem;
@@ -173,9 +173,9 @@ font-style: normal;
 
 button { 
     padding: 1rem; 
-    border: #ffffff;
+    border: 2px solid #5eb2dd;
     border-radius: 2rem;
-    cursor: auto;
+    cursor: pointer;
     border-color: #5eb2dd;   
 }
 
@@ -229,8 +229,20 @@ form {
 input, textarea { 
     width: 100%;
     box-sizing: border-box;
+} 
+
+@media (max-width: 768px) {
+    main, aside {
+    float: none;
+    width: 100%;
+    padding: 1rem; 
 }
 
+body { 
+    max-width: 100%;
+    border: none;
+    }
+}
 
 
 
