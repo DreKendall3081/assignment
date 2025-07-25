@@ -204,6 +204,24 @@ section {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
+.content-section { 
+margin-left: 2rem;
+padding: 1rem;
+background-color: #ffffff;
+border-radius: 1rem; 
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form { 
+    max-width: 100%;
+    overflow: hidden; 
+}
+
+input, textarea { 
+    width: 100%;
+    box-sizing: border-box;
+}
+
 
 
 
