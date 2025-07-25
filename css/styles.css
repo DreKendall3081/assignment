@@ -110,7 +110,7 @@ iframe {
     margin: 4rem auto;
     width: 90%;
     height: auto;
-    border: 1rem #5eb2dd;
+    border: 1rem solid #5eb2dd;
 }
 a { 
     color: #01567a;
@@ -245,9 +245,9 @@ body {
     }
 }
 
-a:focus
-button:focus-visible 
-input:focus-visible 
+a:focus,
+button:focus-visible,
+input:focus-visible, 
 textarea:focus-visible {  
 outline: 2px solid #000000;
 outline-offset: 2px;
