@@ -112,6 +112,11 @@ iframe {
     height: auto;
     border: 1rem #5eb2dd;
 }
+a { 
+    color: #01567a;
+    font-weight: bold;
+    text-decoration: none;
+}
 
 a:visited { 
     color: #000000;
